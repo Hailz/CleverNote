@@ -1,15 +1,15 @@
 <nav class="navbar navbar-inverse" role="navigation" collapse ng-controller="NavCtrl">
   <div class="navbar-header">
-    <img class="pull-left" src="/img/man2.png">
+    <img class="pull-left manny" src="/img/man2.png">
     <a class="navbar-brand" href="/">CleverNote</a>
     <a class="navbar-brand" href="/notes">View Notes</a>
     <a class="navbar-brand" ng-show="isLoggedIn()" href="/notes/new">Create Note</a>
   </div>
   <div>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="/signup" ng-hide="isLoggedIn()">Signup</a></li>
-      <li><a href="/login" ng-hide="isLoggedIn()">Login</a></li>
-      <li><a ng-click="logout()" ng-show="isLoggedIn()">Logout </a></li>
+      <li class="inOut"><a href="/signup" ng-hide="isLoggedIn()">Signup</a></li>
+      <li class="inOut"><a href="/login" ng-hide="isLoggedIn()">Login</a></li>
+      <li class="inOut"><a ng-click="logout()" ng-show="isLoggedIn()">Logout </a></li>
     </ul>
   </div>
 </nav>

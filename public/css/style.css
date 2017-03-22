@@ -17,12 +17,18 @@ a {
   background: #696969;
   color: white;
 }
-
 .container{
 	background-color: white;
 }
 .navbar{
-	margin: 20px;
+	border-radius: 0;
+  width: 100%;
+}
+.manny{
+  margin-left: 20px;
+}
+.inOut{
+  margin: 20px;
 }
 .icon {
   margin: 0 auto;
