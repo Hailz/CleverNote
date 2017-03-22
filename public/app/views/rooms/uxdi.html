@@ -7,7 +7,7 @@
 	<div ng-if="note.roomName == 'UXDI'" class="well" ng-repeat="note in notes | filter: search track by note._id">
 	  <div>
 	    <h1>{{note.noteTitle}}</h1>
-	    <p>From <img class="icon" src="/img/UXDI.png"></p>
+	    <p><img class="icon" src="/img/UXDI.png"></p>
 	    <a class="btn siteBtn btn-sm" ng-href="/notes/{{note._id}}">View Note</a>
 
 	  </div>
