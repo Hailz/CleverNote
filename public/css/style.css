@@ -46,6 +46,9 @@ a {
 .fa-thumbs-o-up {
   font-size: 30px;
 }
+.fa-thumbs-o-up:hover{
+  cursor: pointer;
+}
 .likes {
   font-size: 20px;
   padding-right: 10px;
